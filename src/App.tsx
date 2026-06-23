@@ -288,6 +288,30 @@ const roles = [
       "Strong healthcare stakeholder-management overlap and enterprise operational leadership background, but significant gaps around AI data pipelines, medical data operations, and startup-style healthcare AI delivery experience.",
   },
   {
+    company: "Airbnb",
+    title: "Program Manager, Community Support",
+    applied: "June 23, 2026",
+    status: "Open",
+    salary: "$128K-$160K CAD + bonus/equity",
+    fit: 78,
+    location: "Remote - Canada (BC eligible)",
+    priority: "Tier 2",
+    notes:
+      "Good program management and cross-functional stakeholder fit. Strong overlap around complex project delivery, executive-ready communication, ambiguity, operational alignment, and large-scale support environments. Weaker fit than core IT operations roles because Airbnb is looking for deep customer service/contact center operations and community support program experience rather than enterprise IT service delivery leadership.",
+  },
+  {
+    company: "nesto",
+    title: "Service Delivery Manager",
+    applied: "June 23, 2026",
+    status: "Open",
+    salary: "Not Posted",
+    fit: 89,
+    location: "Remote - Canada",
+    priority: "Tier 1",
+    notes:
+      "Strong service delivery fit with direct alignment across incident management, change management, problem management, SLA reporting, client-facing enterprise support, operational framework design, runbooks, service readiness, and regulated fintech/financial services exposure. Some gap around SRE-style SaaS operations, GCP, Datadog, incident.io, and contractual SLA penalties, but this is a strong build-and-operate service delivery role.",
+  },
+  {
     company: "NeuraFlash (Accenture)",
     title: "Salesforce Consultant, Change Management",
     applied: "June 22, 2026",
@@ -503,6 +527,18 @@ const actionItems = [
 
 
 
+  {
+    title: "Prepare nesto service delivery examples around incident, change, SLA reporting, and enterprise client communication",
+    type: "Interview",
+    urgency: "High",
+    done: false,
+  },
+  {
+    title: "Prepare Airbnb program management examples focused on executive communication, ambiguity, and cross-functional delivery",
+    type: "Interview",
+    urgency: "Medium",
+    done: false,
+  },
   {
     title: "Build 5 cybersecurity leadership STAR stories",
     type: "Interview",
@@ -1290,7 +1326,7 @@ export default function JobSearchDashboard() {
                     <p className="text-sm text-slate-600">
                       L42 Solutions - Beem Credit Union - Innovation FCU - Decisive Dividend - AspiringIT -
                       Fujitsu - UniUni - Leo Berwick - TransLink ITSM/ITAM -
-                      Pythian - AGFA HealthCare - Telecon
+                      Pythian - AGFA HealthCare - nesto - Telecon
                     </p>
                   </div>
 
@@ -1298,7 +1334,7 @@ export default function JobSearchDashboard() {
                     <p className="font-bold">Tier 2</p>
                     <p className="text-sm text-slate-600">
                       Senior Manager, Corporate Technology - TransLink Cloud Ops -
-                      BET99 - KF Aerospace - Crossing Hurdles
+                      BET99 - KF Aerospace - Airbnb - Crossing Hurdles
                     </p>
                   </div>
 
