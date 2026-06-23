@@ -324,6 +324,18 @@ const roles = [
       "Moderate fit. Strong enterprise technology leadership, stakeholder management, training, communications, change readiness, and project delivery experience. Significant gaps around Salesforce consulting, Salesforce platform expertise, Salesforce certifications, and formal organizational change management consulting experience.",
   },
   {
+    company: "GitLab",
+    title: "Senior Manager, End User Services",
+    applied: "June 23, 2026",
+    status: "Open",
+    salary: "Not Posted",
+    fit: 95,
+    location: "Remote - North America",
+    priority: "Tier 1",
+    notes:
+      "One of the strongest matches in the entire pipeline. Direct alignment with leading end-user services, service desk operations, ITIL-based incident/request/problem/change management, endpoint lifecycle management, onboarding/offboarding, vendor management, SaaS administration, operational metrics, service improvement, and people leadership. Interior Health Desktop Management leadership supporting 15,000+ endpoints maps exceptionally well. Gaps include Google Workspace, Slack, Okta, Jamf, and large-scale SaaS-company experience, but overall alignment is extremely strong.",
+  },
+  {
     company: "Telecon",
     title: "Manager, Business Applications",
     applied: "May 26, 2026",
@@ -537,6 +549,12 @@ const actionItems = [
     title: "Prepare Airbnb program management examples focused on executive communication, ambiguity, and cross-functional delivery",
     type: "Interview",
     urgency: "Medium",
+    done: false,
+  },
+  {
+    title: "Prepare GitLab End User Services examples around EUC leadership, ITIL, SLA metrics, automation, and global support",
+    type: "Interview",
+    urgency: "High",
     done: false,
   },
   {
@@ -1326,7 +1344,7 @@ export default function JobSearchDashboard() {
                     <p className="text-sm text-slate-600">
                       L42 Solutions - Beem Credit Union - Innovation FCU - Decisive Dividend - AspiringIT -
                       Fujitsu - UniUni - Leo Berwick - TransLink ITSM/ITAM -
-                      Pythian - AGFA HealthCare - nesto - Telecon
+                      Pythian - AGFA HealthCare - GitLab - nesto - Telecon
                     </p>
                   </div>
 
