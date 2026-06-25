@@ -324,16 +324,28 @@ const roles = [
       "Moderate fit. Strong enterprise technology leadership, stakeholder management, training, communications, change readiness, and project delivery experience. Significant gaps around Salesforce consulting, Salesforce platform expertise, Salesforce certifications, and formal organizational change management consulting experience.",
   },
   {
-    company: "GitLab",
-    title: "Senior Manager, End User Services",
-    applied: "June 23, 2026",
+    company: "Interior Health",
+    title: "Business Solutions Architect",
+    applied: "June 24, 2026",
     status: "Open",
-    salary: "Not Posted",
-    fit: 95,
-    location: "Remote - North America",
+    salary: "$90,770-$130,481 CAD",
+    fit: 94,
+    location: "Flexible within Interior Health Region",
     priority: "Tier 1",
     notes:
-      "One of the strongest matches in the entire pipeline. Direct alignment with leading end-user services, service desk operations, ITIL-based incident/request/problem/change management, endpoint lifecycle management, onboarding/offboarding, vendor management, SaaS administration, operational metrics, service improvement, and people leadership. Interior Health Desktop Management leadership supporting 15,000+ endpoints maps exceptionally well. Gaps include Google Workspace, Slack, Okta, Jamf, and large-scale SaaS-company experience, but overall alignment is extremely strong.",
+      "Outstanding fit. Direct alignment with business architecture, digital transformation, stakeholder engagement, healthcare technology, solution delivery, operational readiness, enterprise systems, project leadership, vendor management, business process improvement, and support for Workday-dependent initiatives. Prior Interior Health experience and relationships provide a significant advantage. Workday experience is an asset but not required.",
+  },
+  {
+    company: "Interior Health",
+    title: "Specialist, Business Analysis",
+    applied: "June 24, 2026",
+    status: "Open",
+    salary: "$90,770-$130,481 CAD",
+    fit: 92,
+    location: "Flexible within Interior Health Region",
+    priority: "Tier 1",
+    notes:
+      "Excellent fit leveraging Interior Health experience, business analysis, requirements gathering, process improvement, stakeholder engagement, digital transformation, implementation leadership, change management, go-live support, vendor coordination, and healthcare operations knowledge. Workday experience is an asset but not required.",
   },
   {
     company: "Telecon",
@@ -350,6 +362,19 @@ const roles = [
 ];
 
 const unsuccessfulRoles = [
+  {
+    company: "GitLab",
+    title: "Senior Manager, End User Services",
+    applied: "June 23, 2026",
+    closed: "June 24, 2026",
+    status: "Not selected after resume review",
+    fit: 95,
+    outcomeStrength: "Strong Role Fit / Fast Screen-Out",
+    type: "Closed",
+    takeaway:
+      "Very strong theoretical fit for end-user services leadership, EUC, ITIL, endpoint lifecycle, onboarding/offboarding, service metrics, and people leadership. Fast rejection likely reflects GitLab prioritizing candidates with direct SaaS-first EUS leadership, Google Workspace, Slack, Okta, Jamf, GitLab, and async-first remote company experience.",
+  },
+
   {
     company: "Affirm",
     title: "IT Engineering Manager (Endpoint Engineering)",
@@ -552,7 +577,13 @@ const actionItems = [
     done: false,
   },
   {
-    title: "Prepare GitLab End User Services examples around EUC leadership, ITIL, SLA metrics, automation, and global support",
+    title: "Prepare Interior Health Business Solutions Architect examples around business architecture, digital transformation, and solution delivery",
+    type: "Interview",
+    urgency: "High",
+    done: false,
+  },
+  {
+    title: "Prepare Interior Health Business Analysis examples around requirements, process improvement, stakeholder facilitation, and Workday-adjacent delivery",
     type: "Interview",
     urgency: "High",
     done: false,
@@ -1344,7 +1375,7 @@ export default function JobSearchDashboard() {
                     <p className="text-sm text-slate-600">
                       L42 Solutions - Beem Credit Union - Innovation FCU - Decisive Dividend - AspiringIT -
                       Fujitsu - UniUni - Leo Berwick - TransLink ITSM/ITAM -
-                      Pythian - AGFA HealthCare - GitLab - nesto - Telecon
+                      Pythian - AGFA HealthCare - Interior Health BSA - Interior Health BA - nesto - Telecon
                     </p>
                   </div>
 
