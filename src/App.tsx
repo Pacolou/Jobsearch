@@ -348,6 +348,18 @@ const roles = [
       "Excellent fit leveraging Interior Health experience, business analysis, requirements gathering, process improvement, stakeholder engagement, digital transformation, implementation leadership, change management, go-live support, vendor coordination, and healthcare operations knowledge. Workday experience is an asset but not required.",
   },
   {
+    company: "Healthtech / Nordic Global",
+    title: "Healthcare IT Project Manager - Talent Pipeline",
+    applied: "June 24, 2026",
+    status: "Open",
+    salary: "Not Posted",
+    fit: 91,
+    location: "Remote - Canada / Travel up to 25%",
+    priority: "Tier 1",
+    notes:
+      "Excellent healthcare IT project management fit. Strong alignment with Interior Health experience, healthcare transformation, enterprise system delivery, operational readiness, stakeholder management, executive communications, risk management, change management, vendor coordination, and full project lifecycle delivery. Gaps include direct ERP/Workday delivery depth and formal PMP credential, but healthcare IT delivery alignment is very strong.",
+  },
+  {
     company: "Telecon",
     title: "Manager, Business Applications",
     applied: "May 26, 2026",
@@ -584,6 +596,12 @@ const actionItems = [
   },
   {
     title: "Prepare Interior Health Business Analysis examples around requirements, process improvement, stakeholder facilitation, and Workday-adjacent delivery",
+    type: "Interview",
+    urgency: "High",
+    done: false,
+  },
+  {
+    title: "Prepare Healthtech/Nordic healthcare IT project delivery examples for ERP, clinical systems, interoperability, and executive stakeholder management",
     type: "Interview",
     urgency: "High",
     done: false,
@@ -1375,7 +1393,7 @@ export default function JobSearchDashboard() {
                     <p className="text-sm text-slate-600">
                       L42 Solutions - Beem Credit Union - Innovation FCU - Decisive Dividend - AspiringIT -
                       Fujitsu - UniUni - Leo Berwick - TransLink ITSM/ITAM -
-                      Pythian - AGFA HealthCare - Interior Health BSA - Interior Health BA - nesto - Telecon
+                      Pythian - AGFA HealthCare - Interior Health BSA - Interior Health BA - Healthtech/Nordic - nesto - Telecon
                     </p>
                   </div>
 
